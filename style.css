@@ -1,0 +1,36 @@
+body{
+  margin:0;
+  background:#0a0a14;
+  color:white;
+  font-family:Arial;
+  overflow:hidden;
+}
+
+#game{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+#ui{
+  position:absolute;
+  top:10px;
+  left:10px;
+  z-index:10;
+}
+
+#stats{
+  background:rgba(0,0,0,0.6);
+  padding:10px;
+  border-radius:8px;
+  margin-bottom:10px;
+}
+
+#inventory{
+  background:rgba(0,0,0,0.6);
+  padding:10px;
+  border-radius:8px;
+  max-width:200px;
+}
